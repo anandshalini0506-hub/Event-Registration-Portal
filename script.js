@@ -32,10 +32,10 @@ form.addEventListener("submit", function (e) {
         nameInput.value.trim() === "" ||
         emailInput.value.trim() === ""
     ) {
-        message.textContent = "⚠ Please fill all mandatory fields correctly.";
+        message.textContent = "Please fill all mandatory fields correctly.";
         message.style.color = "red";
     } else {
-        message.textContent = "🎉 Registration Successful!";
+        message.textContent = "Registration Successful!";
         message.style.color = "green";
 
         form.reset();
